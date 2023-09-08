@@ -1,0 +1,14 @@
+{
+  "name": "Challenge-02",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "nomor1": "node nomor1.js",
+    "nomor2": "node nomor2.js",
+    "nomor3": "node nomor3.js",
+    "nomor4": "node nomor4.js",
+    "nomor5": "node nomor5.js"
+  }
+}
