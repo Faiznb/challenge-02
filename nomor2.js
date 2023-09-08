@@ -5,7 +5,7 @@ const checkTypeNumber = (givenNumber) => {
   }
   if (typeof givenNumber !== "number") {
     console.error("INVALID DATA TYPE");
-    return;
+    return "";
   }
   //Mengecek Apakah Ganjil Atau Genap
   if (givenNumber % 2 === 0) {

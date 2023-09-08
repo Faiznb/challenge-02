@@ -3,7 +3,7 @@ function getAngkaTerbesarKedua(personName) {
 
   if (!Array.isArray(personName)) {
     console.error("Parameter yang kamu masukkan bukan berupa array");
-    return;
+    return "";
   }
   // Menghapus elemen duplikat (jika ada)
   const arrayUnik = personName.filter((item, index) => personName.indexOf(item) === index);
