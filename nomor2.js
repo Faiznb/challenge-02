@@ -1,10 +1,10 @@
 const checkTypeNumber = (givenNumber) => {
   //Validasi Parameter
   if (givenNumber === undefined) {
-    return "Tidak ada parameter yang dimasukkan";
+    return "Error : Bro where is the parameter";
   }
   if (typeof givenNumber !== "number") {
-    console.error("INVALID DATA TYPE");
+    console.error("Error : INVALID DATA TYPE");
     return "";
   }
   //Mengecek Apakah Ganjil Atau Genap
